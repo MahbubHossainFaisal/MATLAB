@@ -1,7 +1,7 @@
 clc
 close all
 fs = 40e3;
-t = 0:1/fs:1/f;
+t = 0:1/fs:1/fs;
 A = 2; 
 x = 6*cos(2*pi*150*t)+8*sin(2*pi*160*t);
 L =10;
